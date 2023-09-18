@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #a{
+            height: 700px;
+            width: 100%;
+            background-color: rgba(237, 237, 35, 0);
+            box-sizing: border-box;
+        }
+        .aj{
+            height: 700px;
+            width: 1200px;
+            
+            margin: auto;
+            display: grid;
+            grid-template-columns: 380px 380px 380px;
+            grid-template-rows: 180px 180PX 180px ;
+
+
+            box-sizing: border-box;
+            padding-top: 40px;
+            padding-left: 15px;
+                gap: 15px 15px;
+        }
+        .box{
+            
+            box-sizing: border-box;
+            display: grid;
+            grid-template-columns: 230px 150px;
+            grid-template-rows: 50px 130px;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            border-radius: 15px;
+        }
+        .a1{
+            
+            padding-left: 15px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 15px;
+        }
+        .b1{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            color: rgb(106, 102, 102);
+            padding: 20px;
+        }
+        .c1{
+            text-align: end;
+            padding-right: 20px;
+            color: rgb(148, 172, 49);
+        }
+        @media all and (max-width:600px) {
+            .aj{
+                grid-template-columns: 380px 380px;
+                align-content: center;
+            }
+            
+        }
+        @media all and (max-width:300px) {
+            .aj{
+                grid-template-columns: 380px;
+            }
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div id="a">
+        
+        <div class="aj">
+    
+            <div class="box">
+                <div class="a1">
+                    <h2>Cappuccino</h2> 
+                 </div>
+                 <div class="a1 c1"><h2>$49</h2></div>
+                 <div class="a1 b1">Usage of the internet is becoming more common due to rapid advance.</div>
+            </div>
+            <div class="box">
+                <div class="a1">
+                    <h2>Americano</h2> 
+                 </div>
+                 <div class="a1 c1"><h2>$49</h2></div>
+                 <div class="a1 b1">Usage of the internet is becoming more common due to rapid advance.</div>
+            </div>
+            <div class="box">
+                <div class="a1">
+                    <h2>Espreesso</h2> 
+                 </div>
+                 <div class="a1 c1"><h2>$49</h2></div>
+                 <div class="a1 b1">Usage of the internet is becoming more common due to rapid advance.</div>
+            </div>
+            <div class="box">
+                <div class="a1">
+                    <h2>Macchiato</h2> 
+                 </div>
+                 <div class="a1 c1"><h2>$49</h2></div>
+                 <div class="a1 b1">Usage of the internet is becoming more common due to rapid advance.</div>
+            </div>
+            <div class="box">
+                <div class="a1">
+                    <h2>Macha</h2> 
+                 </div>
+                 <div class="a1 c1"><h2>$49</h2></div>
+                 <div class="a1 b1">Usage of the internet is becoming more common due to rapid advance.</div>
+            </div>
+            <div class="box">
+                <div class="a1">
+                    <h2>Coffe Latte</h2> 
+                 </div>
+                 <div class="a1 c1"><h2>$49</h2></div>
+                 <div class="a1 b1">Usage of the internet is becoming more common due to rapid advance.</div>
+            </div>
+            <div class="box">
+                <div class="a1">
+                    <h2>Piccolo Latte</h2> 
+                 </div>
+                 <div class="a1 c1"><h2>$49</h2></div>
+                 <div class="a1 b1">Usage of the internet is becoming more common due to rapid advance.</div>
+            </div>
+            <div class="box">
+                <div class="a1">
+                    <h2>Ristretto</h2> 
+                 </div>
+                 <div class="a1 c1"><h2>$49</h2></div>
+                 <div class="a1 b1">Usage of the internet is becoming more common due to rapid advance.</div>
+            </div>
+            <div class="box">
+                <div class="a1">
+                    <h2>Affogato</h2> 
+                 </div>
+                 <div class="a1 c1"><h2>$49</h2></div>
+                 <div class="a1 b1">Usage of the internet is becoming more common due to rapid advance.</div>
+            </div>
+            
+    
+        </div>
+        
+    </div>
+</body>
+</html>
